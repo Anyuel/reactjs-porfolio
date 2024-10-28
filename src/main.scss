@@ -1,0 +1,19 @@
+$primary: #C778DD;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+
+body {
+    font-family: 'Fira Code', monospace; /* Use monospace to apply font correctly */
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: $dark;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.card {
+    border-radius: 0;
+}

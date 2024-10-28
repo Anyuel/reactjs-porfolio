@@ -1,0 +1,9 @@
+@import '../../main';
+
+#view-all-url {
+    color: $white;
+}
+
+#view-all-url:hover {
+    color: darken($color: $white, $amount: 20%);
+}

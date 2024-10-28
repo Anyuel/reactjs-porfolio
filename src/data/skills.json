@@ -1,0 +1,18 @@
+[
+    {
+        "type": "Languague",
+        "details": [
+            "Java",
+            "Python"
+        ]
+    },
+    {
+        "type": "Database",
+        "details": [
+            "Couchbase",
+            "MySQL",
+            "MongoDB",
+            "PostgreSQL"
+        ]
+    }
+]

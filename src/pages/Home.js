@@ -11,7 +11,7 @@ import HomeContactSection from './home/HomeContactSection'
 const Home = () => {
   return (
     <Container className="bg-dark v-100 text-white d-flex flex-column" fluid>
-        <NavBar />
+        <NavBar active={0} />
         <HomeBannerSection />
         <HomeProjectsSection />
         <HomeSkillsSection />

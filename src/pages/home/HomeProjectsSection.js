@@ -14,7 +14,7 @@ const HomeProjectsSection = () => {
                         <div className='bg-primary ms-3' style={{ height: '1px', marginRight: '200px', width: '50%' }} />
                     </Col>
                     <Col md="auto">
-                    <a href="/view-all" className='text-decoration-none' id='view-all-url'>View All →</a>
+                    <a href="/works" className='text-decoration-none' id='view-all-url'>View All →</a>
                     </Col>
                 </Row>
             </Container>

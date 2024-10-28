@@ -9,11 +9,16 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import './utils/i18n';
 import './main.scss';
 import Home from "./pages/Home";
+import Works from "./pages/Works";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/works",
+    element: <Works />
   }
 ]);
 

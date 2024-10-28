@@ -10,6 +10,8 @@ import './utils/i18n';
 import './main.scss';
 import Home from "./pages/Home";
 import Works from "./pages/Works";
+import AboutMe from "./pages/AboutMe";
+import Contacts from "./pages/Contacts";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +21,14 @@ const router = createBrowserRouter([
   {
     path: "/works",
     element: <Works />
+  },
+  {
+    path: "/about-me",
+    element: <AboutMe />
+  },
+  {
+    path: "/contacts",
+    element: <Contacts />
   }
 ]);
 

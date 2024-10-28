@@ -23,7 +23,7 @@ const HomeAboutMeSection = () => {
                         <Button variant='outline-primary' className='text-white'>Read more →</Button>
                     </Col>
                     <Col className='d-flex justify-content-center'>
-                        <Image src='/assets/home/about-me-img.svg'/>
+                        <Image src='/assets/about-me/about-me-img.svg'/>
                     </Col>
                 </Row>
             </Container>

@@ -9,11 +9,11 @@ const Works = () => {
     return (
         <Container>
             <NavBar active={1}/>
-            <Container className='text-white my-5'>
+            <section className='text-white my-5'>
                 <h1><span className='text-primary'>/</span>projects</h1>
                 <p>Lists of my projects</p>
-            </Container>
-            <Container>
+            </section>
+            <section>
                 <h2 className='my-5 text-white'><span className='text-primary'>#</span>complete-apps</h2>
                 <Container>
                     <Row>
@@ -24,8 +24,8 @@ const Works = () => {
                         ) }
                     </Row>
                 </Container>
-            </Container>
-            <Container>
+            </section>
+            <section>
                 <h2 className='my-5 text-white'><span className='text-primary'>#</span>small-projects</h2>
                 <Container>
                     <Row>
@@ -36,7 +36,7 @@ const Works = () => {
                         ) }
                     </Row>
                 </Container>
-            </Container>
+            </section>
             <Footer />
         </Container>
     )

@@ -28,8 +28,8 @@ const NavBar = ( { active } ) => {
           <Nav>
             <Nav.Link href="/" className={`me-3 ${ active === 0 ? "text-white" : "text-secondary"}`}><span className="text-primary">#</span>home</Nav.Link>
             <Nav.Link href="/works" className={`me-3 ${ active === 1 ? "text-white" : "text-secondary"}`}><span className="text-primary">#</span>works</Nav.Link>
-						<Nav.Link href="#about-me" className={`me-3 ${ active === 2 ? "text-white" : "text-secondary"}`}><span className="text-primary">#</span>about-me</Nav.Link>
-						<Nav.Link href="#contacts" className={`me-3 ${ active === 3 ? "text-white" : "text-secondary"}`}><span className="text-primary">#</span>contacts</Nav.Link>
+						<Nav.Link href="/about-me" className={`me-3 ${ active === 2 ? "text-white" : "text-secondary"}`}><span className="text-primary">#</span>about-me</Nav.Link>
+						<Nav.Link href="/contacts" className={`me-3 ${ active === 3 ? "text-white" : "text-secondary"}`}><span className="text-primary">#</span>contacts</Nav.Link>
             <NavDropdown 
               title={<span className="text-secondary">{i18n.language.toUpperCase()}<i className="bi bi-chevron-down"/></span>} 
               className="me-3 custom-dropdown" 
